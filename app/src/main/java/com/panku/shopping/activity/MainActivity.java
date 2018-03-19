@@ -1,4 +1,4 @@
-package com.panku.shopping;
+package com.panku.shopping.activity;
 
 import android.os.Handler;
 import android.support.v4.app.Fragment;
@@ -13,6 +13,7 @@ import android.widget.ImageView;
 
 import com.chaychan.library.BottomBarItem;
 import com.chaychan.library.BottomBarLayout;
+import com.panku.shopping.R;
 import com.panku.shopping.fragment.HomeFragment;
 import com.panku.shopping.fragment.MineFragment;
 import com.panku.shopping.fragment.OtherFragment;

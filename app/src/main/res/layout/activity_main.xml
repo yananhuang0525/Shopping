@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.panku.shopping.MainActivity">
+    tools:context="com.panku.shopping.activity.MainActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"
@@ -44,7 +44,7 @@
             app:iconSelected="@mipmap/tab_video_selected"
             app:iconWidth="35dp"
             app:itemMarginTop="-5dp"
-            app:itemText="视频"
+            app:itemText="商城"
             app:itemTextSize="12sp"
             app:textColorNormal="@color/tab_normal_color"
             app:textColorSelected="@color/tab_selected_color" />
@@ -59,7 +59,7 @@
             app:iconSelected="@mipmap/tab_micro_selected"
             app:iconWidth="35dp"
             app:itemMarginTop="-5dp"
-            app:itemText="微头条"
+            app:itemText="购物车"
             app:itemTextSize="12sp"
             app:textColorNormal="@color/tab_normal_color"
             app:textColorSelected="@color/tab_selected_color" />
